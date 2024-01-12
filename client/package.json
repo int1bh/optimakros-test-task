@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/client.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn ./src/client.ts",
+    "start": "ts-node ./src/client.ts"
+  },
+  "author": "Alexandr Dryagin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/prompt-sync": "^4.2.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.5"
+  }
+}
