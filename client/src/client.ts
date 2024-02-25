@@ -5,6 +5,7 @@ import configs from "./config";
 import * as readLine from 'node:readline';
 
 let cookie = '';
+let t = '';
 
 const rl = readLine.createInterface({
     input: process.stdin,
